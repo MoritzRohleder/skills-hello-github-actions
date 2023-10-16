@@ -4,3 +4,6 @@ name: Post Welcome comment
       types: [opened]
   permissions:
     pull_requests: write
+  jobs:
+    build: Post welcome comment
+    runs-on: ubuntu-latest
